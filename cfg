@@ -1,0 +1,3 @@
+removeSearchAliasX('e');
+addSearchAliasX('e', 'eng dict search', 'https://dict.leo.org/englisch-deutsch/{0}');
+addSearchAliasX('f', 'fr dict search', 'https://dict.leo.org/französisch-deutsch/{0}');
