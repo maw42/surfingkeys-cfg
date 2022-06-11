@@ -1,3 +1,9 @@
-removeSearchAliasX('e');
-addSearchAliasX('e', 'eng dict search', 'https://dict.leo.org/englisch-deutsch/{0}');
-addSearchAliasX('f', 'fr dict search', 'https://dict.leo.org/französisch-deutsch/{0}');
+//disable some search engines
+removeSearchAliasX('g'); // google
+removeSearchAliasX('b'); // baidu
+removeSearchAliasX('w'); // bing
+
+addSearchAliasX('e', 'eng dict.leo.org', 'https://dict.leo.org/englisch-deutsch/{0}');
+addSearchAliasX('f', 'fr dict.leo.org', 'https://dict.leo.org/französisch-deutsch/{0}');
+addSearchAlias('se', 'eng dict.leo.org', 'https://dict.leo.org/englisch-deutsch/{0}');
+addSearchAlias('sf', 'fr dict.leo.org', 'https://dict.leo.org/englisch-deutsch/{0}');
